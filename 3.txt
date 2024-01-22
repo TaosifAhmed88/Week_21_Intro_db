@@ -1,0 +1,20 @@
+Q.3 What is DBMS? What was the need for DBMS ?
+
+A Database Management System (DBMS) is software that provides an interface for interacting with databases. 
+
+It is a centralized system that enables users to create, manage, and manipulate databases, ensuring the efficient and secure storage, retrieval, and modification of data. 
+
+The primary functions of a DBMS include data definition, data manipulation, data retrieval, and data integrity enforcement.
+
+The development and adoption of Database Management Systems (DBMS) were driven by several factors addressing challenges associated with file-based storage systems. Here are some key reasons for the need for DBMS:
+
+1.Data Centralization: In traditional file systems, data was scattered across various files and locations, leading to difficulties in accessing and managing information.
+
+2.Data Independence: Changes in the structure of data or in the application software often required extensive modifications to existing files in file-based systems.
+
+3.Concurrent Access: In file-based systems, managing simultaneous access and updates by multiple users could lead to data inconsistencies and conflicts.
+
+4.Query Language and Optimization: Retrieving information from file-based systems often required manual searching, and querying capabilities were limited.
+
+5.Scalability and Performance: File-based systems faced scalability issues as data volume increased, leading to inefficiencies in data management.
+

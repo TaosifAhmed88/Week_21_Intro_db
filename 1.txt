@@ -1,0 +1,20 @@
+Q.1 What is a Database? Explain with an example on why should we need a database?
+
+
+A database is a structured collection of data that is organized in a way that makes it easy to manage, retrieve, and update.
+
+Databases are used to store data in a structured format, typically organized into tables with rows and columns. 
+
+The data within a database can be related to each other, and the database management system (DBMS) ensures that the data remains consistent, accurate, and easily accessible.
+
+Common database types include relational databases (e.g., MySQL, PostgreSQL, Oracle) and NoSQL databases (e.g.MongoDB.)
+
+Example to illustrate the need for a database:
+
+Imagine a business that sells products and needs to keep track of inventory, customer information, and sales transactions. Without a database, this information might be scattered across various spreadsheets, text files, or even paper records. This decentralized approach could lead to several issues:
+
+1.Data Redundancy: The same information may be duplicated in multiple places, leading to inconsistencies,errors.
+
+2.Data Security: Protecting data becomes more challenging without a centralized system, making it susceptible to unauthorized access or loss.
+
+3.Limited Scalability: As the volume of data grows, managing it becomes increasingly difficult with decentralized storage.

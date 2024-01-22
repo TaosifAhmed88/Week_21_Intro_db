@@ -1,0 +1,45 @@
+Q.6 What is the significance of Data Modelling and explain the types of data modeling ?
+
+Significance of Data Modelling 
+
+1.Guide Database Development:
+
+    Data models provide a roadmap for database development. Designers can follow the model to create the actual database schema and implement the necessary relationships between entities.
+
+2.Improve Consistency and Quality:
+
+    Data models enforce consistency in data representation, helping maintain data quality and integrity. By defining entities, attributes, and relationships, data models set standards for how data should be structured and stored.
+
+3.Support Database Maintenance:
+
+    Data models serve as documentation that aids in ongoing database maintenance. When modifications are necessary, having a clear data model makes it easier to understand the existing structure and plan for changes.
+
+4.Facilitate Database Optimization:
+
+    Optimization efforts, such as indexing and query tuning, benefit from a well-defined data model. Understanding the relationships and dependencies helps in optimizing database performance.
+
+Types of Data Modelling (3 types)
+
+1.High Level Conceptual Data Model  -- e.g ER {Entity Relationship} model   In ER model there is entity(it is real world object),Attribute(Properties of an entity),Relationship(Relation between two or more entities)
+
+
+2.Record Based Logical Data Model -->
+        e.g i.Hierarchical model:
+                    -Tree like model/structure.
+                    -Each child can have only 1 parent & Each parent can have more than 1 childs.
+
+            ii.Network model:
+                    -Complex form of Hierarchical model more of like graphs.
+                    -Each child can have multiple parents & Each parent can have multiple childs.
+
+            iii. Relationship model:
+                    -Made up of relation i.e tables.
+                    -Table is combination of rows and columns.
+                    -Columns can also be called as Attribute and Fields.
+                    -Rows can also be called as Records and Tuples.
+
+
+3.Physical data model:
+             -How data is stored physically in computer memory.
+             -How data is retrive from computer memory.
+             -How data is arranged in the computer memory.

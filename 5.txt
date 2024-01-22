@@ -1,0 +1,25 @@
+Q.5 List out the different types of classification in DBMS and explain them in depth ?
+
+In Database Management Systems (DBMS), classification can be based on various criteria, including data models, structure, and no. of user. Here are some common types of classifications in DBMS:
+
+1.Based on Data Models:
+
+    Relational DBMS (RDBMS): Organizes data into tables with rows and columns, establishing relationships between tables. Examples include MySQL, PostgreSQL, and Oracle.
+
+    Hierarchical DBMS (HDBMS): Represents data in a tree-like structure, where each record has a parent-child relationship. IMS (Information Management System) is an example of a hierarchical DBMS.
+
+    Network DBMS (NDBMS): Extends the hierarchical model by allowing many-to-many relationships. The CODASYL database management system is an example of a network DBMS.
+
+    Object-Oriented DBMS (OODBMS): Stores data in the form of objects, which can include both data and procedures. It is suitable for applications with complex data structures and relationships.
+
+2.Based on Structure:
+
+    Centralized DBMS: In a centralized database system, a single server is responsible for managing and storing the entire database. It provides centralized control over data management.
+
+    Distributed DBMS (DDBMS): Distributes data across multiple servers or locations. It offers advantages like improved performance and fault tolerance but also introduces challenges related to data consistency and coordination.
+
+3.Based on Number of Users:
+
+    Single-user DBMS: Designed for a single user or a small group of users. Personal database systems like Microsoft Access are examples of single-user DBMS.
+
+    Multi-user DBMS: Supports concurrent access by multiple users. It ensures data consistency and integrity in a shared environment. Examples include MySQL, Oracle, and SQL Server.

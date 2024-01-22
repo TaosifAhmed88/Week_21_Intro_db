@@ -1,0 +1,37 @@
+Q.4 Explain 5 challenges of file-based storage system which was tackled by DBMS ?
+
+Challenges tackled by DBMS are as follows:
+
+1.Data Redundancy and Inconsistency:
+
+    Challenge in File-Based Systems: In file-based systems, the same data could be duplicated across multiple files, leading to redundancy.
+    Updates made to one copy might not be reflected in other copies, resulting in inconsistency.
+
+    DBMS Solution: DBMS organizes data into tables with predefined structures, enforcing data integrity rules.
+    Redundancy is minimized, and updates are centralized, reducing the risk of inconsistency.
+
+2.Data Isolation:
+
+    Challenge in File-Based Systems: Data isolation occurred because related information was often stored in separate files, making it difficult to establish connections and retrieve comprehensive datasets.
+
+    DBMS Solution: DBMS allows the creation of relationships between tables, enabling the retrieval of related data through queries. This eliminates the isolation problem and enhances data connectivity.
+
+3.Limited Data Integrity Enforcement:
+
+    Challenge in File-Based Systems: File systems lacked built-in mechanisms to enforce data integrity constraints, such as ensuring unique values or maintaining referential integrity between related data.
+
+    DBMS Solution: DBMS provides tools for defining and enforcing data integrity rules. 
+    It ensures that data meets predefined criteria, reducing the likelihood of errors and improving overall data quality.
+
+4.Difficulty in Data Retrieval and Querying:
+
+    Challenge in File-Based Systems: Retrieving specific information from file-based systems often required manual searching through various files. Querying capabilities were limited.
+
+    DBMS Solution: DBMS introduces a standardized query language (e.g., SQL) and query optimization techniques. Users can easily retrieve and manipulate data using queries, making data access more efficient and flexible.
+
+5.Concurrency Control Issues:
+
+    Challenge in File-Based Systems: Concurrent access and updates by multiple users in file-based systems could lead to data inconsistencies and conflicts.
+
+    DBMS Solution: DBMS incorporates concurrency control mechanisms to manage simultaneous transactions. 
+    It ensures that transactions are executed in a way that maintains data consistency and integrity, even in a multi-user environment.

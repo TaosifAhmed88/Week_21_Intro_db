@@ -1,0 +1,50 @@
+Q.7 Explain 3 schema architecture along with its advantages ?
+
+
+The Three Schema Architecture is a conceptual framework that divides a database system into three interrelated components or schemas. These schemas represent different views of the database, each tailored for specific purposes. The three schemas are:
+
+1.User Schema (External Schema):
+
+        -The User Schema represents the way data is viewed by individual users or groups of users. 
+        -It focuses on the specific data and information needed by a particular user or application.
+        -Users interact with the database through the User Schema, which provides a customized and simplified view of the data relevant to their tasks or queries.
+        -Each user or application may have a unique view of the data, defined by the External Schema.
+
+2.Logical Schema (Conceptual Schema):
+
+        -The Logical Schema represents the logical structure of the entire database without detailing how data is physically stored or accessed.
+        -It defines the relationships, constraints, and integrity rules that govern the entire database. 
+        -The Logical Schema provides a high-level, conceptual view of the data model.
+        -Changes to the Logical Schema affect the entire database and require consideration of the overall structure and relationships.
+
+3.Internal Schema (Physical Schema):
+
+        -The Internal Schema describes how data is physically stored and accessed on the underlying hardware or storage devices.
+        -It includes details such as file organization, indexing mechanisms, and data storage structures.
+        -The Internal Schema is concerned with optimizing data storage and retrieval for efficient performance.
+        -Changes to the Internal Schema do not affect the Logical or User Schemas. This separation allows for modifications to the physical storage without impacting the logical structure or user views.
+
+Advantages are as follows:
+
+1.Data Independence:
+
+        The Three Schema Architecture provides a clear separation between the User Schema, Logical Schema, and Internal Schema. This separation promotes data independence at different levels:
+
+        -Physical Data Independence: Changes to the Internal Schema (storage structure) do not affect the Logical or User Schemas. Applications and users remain unaffected by alterations to the physical storage.
+
+        -Logical Data Independence: Changes to the Logical Schema (conceptual structure) do not impact the User Schemas. Modifications to the data model are transparent to users and applications.
+
+2.Flexibility and Customization:
+
+        -Users and applications can have their own customized views of the data through the User Schema. 
+        -This allows for flexibility and customization, as different users can interact with the database based on their specific requirements without affecting the overall database structure.
+
+3.Enhanced Security :
+
+        -The Three Schema Architecture facilitates the implementation of access controls and security measures at different levels. 
+        -Security policies can be applied to restrict access at the User Schema level, ensuring that users only have access to the data they need for their tasks.
+
+4.Concurrent Development:
+
+        -The separation of schemas enables concurrent development by different teams or individuals. 
+        -Changes to the User Schema, for example, can be made independently of changes to the Logical or Internal Schemas, promoting parallel development efforts.
